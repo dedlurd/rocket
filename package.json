@@ -2,11 +2,9 @@
   "name": "rocket",
   "version": "1.0.0",
   "scripts": {
-  "build": "tailwindcss -i ./src/input.css -o ./src/output.css",
-  "tailwind": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
-},
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css"
+  },
   "devDependencies": {
-    "@tailwindcss/cli": "^4.3.0",
-    "tailwindcss": "^4.3.0"
+    "@tailwindcss/cli": "^4.3.0"
   }
 }

@@ -255,6 +255,9 @@
   .max-w-md {
     max-width: var(--container-md);
   }
+  .origin-top {
+    transform-origin: top;
+  }
   .cursor-pointer {
     cursor: pointer;
   }
@@ -353,6 +356,9 @@
   }
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
+  }
+  .py-8 {
+    padding-block: calc(var(--spacing) * 8);
   }
   .py-12 {
     padding-block: calc(var(--spacing) * 12);
